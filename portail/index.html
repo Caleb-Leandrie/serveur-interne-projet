@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portail interne — Projet Docker</title>
+  <style>
+    body { font-family: sans-serif; max-width: 900px; margin: 2rem auto; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h1>Serveur interne conteneurisé — Inventaire du parc</h1>
+  <p><strong>Équipe :</strong> [Votre nom 1], [Votre nom 2]</p>
+  <p><strong>Dernière mise à jour :</strong> 2025-XX-XX</p>
+
+  <h2>Services déployés</h2>
+  <table>
+    <tr><th>Service</th><th>Adresse d'accès</th><th>Rôle</th></tr>
+    <tr><td>Portail</td><td>http://192.168.X.X:8080</td><td>Point d'entrée</td></tr>
+    <tr><td>Base de données</td><td>192.168.X.X:3307</td><td>Inventaire du parc</td></tr>
+    <tr><td>Adminer</td><td>http://192.168.X.X:8081</td><td>Interface d'administration BDD</td></tr>
+    <tr><td>Grafana</td><td>http://10.250.15:3000</td><td>Supervision</td></tr>
+  </table>
+</body>
+</html>
